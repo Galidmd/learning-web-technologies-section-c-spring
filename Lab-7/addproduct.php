@@ -1,7 +1,7 @@
 <?php
     require_once('db.php');
 
-    function addproduct($name, $buying_price, $selling_price, $display){
+    function addProduct($name, $buying_price, $selling_price, $display){
         $con = dbConnect();
 
         //$sql = "insert into users values('', '{$user['username']}','{$user['email']}', '{$user['password']}')";
